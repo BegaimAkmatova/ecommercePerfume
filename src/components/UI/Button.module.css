@@ -1,0 +1,10 @@
+.button {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d3a7e3;
+    color: rgb(78, 72, 72);
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 3px #f6bbf6f5;
+    transition: box-shadow 0.2s ease-in-out;
+}

@@ -1,0 +1,73 @@
+
+.input {
+    border:none;
+    padding: 13px;
+    font-size: 17px;
+    background-color:#ffffff;
+    width: 450px;
+    border: 1px solid rgb(230, 221, 221);
+    margin-bottom: 30px;
+}
+
+.input:focus,
+.input:hover {
+    outline: none;
+    box-shadow: 3px 2px 4px 2px #ea80eef5;
+}
+
+.blok {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.image {
+    margin-bottom: 30px;
+}
+
+.image img {
+    width: 50%;
+    height: 400px;
+}
+
+.loading {
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.httpError {
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.images {
+    margin-left: 50px;
+    
+}
+
+.images img{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.pageNumbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}    
+
+.pageNumbers li{
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

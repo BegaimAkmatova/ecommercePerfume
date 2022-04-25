@@ -1,0 +1,47 @@
+.form {
+    margin: 1rem 0;
+    height: 19rem;
+    overflow: auto;
+    
+}
+
+.control {
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+}
+
+.control label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.control input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 10rem;
+    min-width: 90%;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 25px;
+}
+
+.actions button {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #ffffff;
+}
+
+.control.invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+}

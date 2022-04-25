@@ -1,0 +1,43 @@
+.card {
+    border: 1px solid #f3f3f3;
+    padding: 20px;
+    width: 180px;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px 3px #e789e7f5;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 5px 3px #eda9f1f5;
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 70px;
+    height: 105px;
+}
+
+.card h2,p{
+    margin: 0;
+}
+
+.quanty {
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.action :hover {
+    box-shadow: 3px 3px 5px 3px #db69dff5;;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+}

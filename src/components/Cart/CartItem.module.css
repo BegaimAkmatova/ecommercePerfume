@@ -1,0 +1,25 @@
+
+.img {
+    text-align: center;
+}
+
+.img button {
+    margin-left: 8px;
+}
+
+.img img{
+    width: 70px;
+    margin-left: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.discount {
+    margin-top: 10px;
+}
+
+.discount span {
+    font-weight: bold;
+}

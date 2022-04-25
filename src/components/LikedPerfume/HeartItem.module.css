@@ -1,0 +1,19 @@
+.img {
+    text-align: center;
+}
+
+.img img{
+    width: 70px;
+    margin-left: 10px;
+    
+}
+
+.li {
+    list-style: none;
+    width: 200px;
+}
+
+.heart {
+    display: flex;
+    justify-content: center;
+}

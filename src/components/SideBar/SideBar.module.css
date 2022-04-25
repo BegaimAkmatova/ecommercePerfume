@@ -1,0 +1,18 @@
+.list ul {
+    display: flex;
+    justify-content: center;
+    color: rgb(119, 117, 117);
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.list li a {
+    color:rgb(61, 58, 58);
+    text-decoration: none;
+}
+
+.list a.active {
+    color: rgb(135, 131, 131);
+    border-bottom: 2px solid ;
+}
